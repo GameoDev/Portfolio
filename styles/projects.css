@@ -1,0 +1,129 @@
+body
+{
+    background-color:  rgb(207, 201, 190);
+}
+#box_talk
+{
+    height: 50px;
+    width: 280px;
+    margin:250px 0px 0px 250px;
+    display: inline-block;
+}
+#box
+{
+    height: 20px;
+    width: 20px;
+    background-color: rgb(55, 55, 214);
+    display: inline-block;
+    margin:0px 0px 0px 0px;
+}
+#talk
+{
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    font-size: 40px;
+}
+
+#resume_content
+{
+    /* background-color:  rgb(230, 26, 26); */
+    width: 40%;
+    height: 2300px;
+    margin: auto;
+}
+
+#project_intro
+{
+    margin: 50px 0px 20px 0px;
+    width: 100%;
+}
+
+#intro_para
+{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    line-height: 30px;
+    font-weight: 500;
+    text-align: center;
+    margin: 10px 0px 50px 0px;
+}
+#vertical_line_1
+{
+    display: inline-block;
+    width: 1.2%;
+    height: 80px;
+    background-color: blue;
+}
+
+#project_intro
+{
+    display: inline;
+    width: 100%;
+    height: 80px;
+    background-color: blue;
+    padding-top: 100px;
+}
+#vertical_line
+{
+    display: inline-block;
+    width: 3%;
+    height: 80px;
+    margin: 80px 0px 0px 0px;
+    background-color: blue;
+}
+#project_description
+{
+    width: 40%;
+    height: 80px;
+    margin: 10px 0px 0px 0px;
+    display: inline-block;
+}
+
+#description
+{
+    width: 100%;
+    height: 300px;
+    margin: 00px 0px 40px 50px;
+    display: inline-block;
+}
+#project_title
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    display: inline-block;
+    color: blue;
+}
+#project_info
+{
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    font-size: 17.2px;
+}
+#project_icon
+{
+    width: 100%;
+    height: 300px;
+    margin: -900px 0px 160px 450px;
+    background-color: blue;
+    display: inline-block;
+}
+
+#exp_container_1
+{
+    background-color: white;
+    box-shadow: -20px 0px 10px -10px rgb(0 0 0 / 0.3);
+    width: 100%;
+    height: 400px;
+}
+
+#exp_container
+{
+    background-color: white;
+    box-shadow: -20px 0px 10px -10px rgb(0 0 0 / 0.3);
+    width: 100%;
+    height: 400px;
+    margin-top: 50px;
+}
