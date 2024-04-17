@@ -1,0 +1,329 @@
+/*#region General Settings*/
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    z-index: 0;
+}
+/*#endregion General Settings*/
+
+/*#region Header*/
+#header
+{
+    height:100px;
+    width: 99.6%;
+    background-color: white;
+    position: fixed;
+}
+
+#title
+{
+    margin:-2px 0px 0px -12px;
+}
+
+#square
+{
+    height: 15px;
+    width: 15px;
+    background-color: rgb(55, 55, 214);
+    display: inline-block;
+    margin:0px 0px 0px 40px;
+}
+
+.inner
+{
+    display: inline-block;
+}
+
+
+nav
+{
+    margin-left: 720px;
+}
+
+a
+{
+    color: black;
+    font-weight: 100;
+}
+
+.headings
+{
+    font-weight: bolder;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:30px 0px 0px 20px;
+}
+
+#role
+{
+    font-weight: 100;
+}
+
+li
+{
+    float: left;
+    margin-left: 60px;
+    list-style-type: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+/*#endregion Header*/
+
+/*#region Main Content*/
+#content
+{
+    width: 100%;
+    height: 130vh;
+    background: linear-gradient(
+        to right,
+        rgb(207, 201, 190) 40%,
+        rgb(235, 230, 222) 0%,
+        white 0%,
+        white 0%
+    );    
+    display: block;
+}
+
+#main
+{
+    height:600px;
+    width: 60%;
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    margin:300px 0px 00px 400px;
+}
+
+#picture
+{
+    box-shadow: -20px 0px 10px -10px rgb(0 0 0 / 0.3);
+    height:600px;
+    width: 40%;
+    background-color: rgb(235, 230, 222);
+    display: inline-block;
+    padding: 100 100 100 100;
+
+}
+
+#dp
+{
+    border-radius: 100%;
+    background: url("../images/gojo.jpg") no-repeat;    
+    background-position: 50% 50%; 
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    margin:40px 0px 00px 90px;
+    justify-content: space-between;
+}
+#picture hr
+{
+    display: inline-block;
+    width: 100%;
+    color: blue;
+    margin:50px 0px 0px -40px;
+
+}
+
+#name_designation
+{
+    width: 100%;
+    padding: 280px 0px 0px 40px;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+
+#name_designation h3
+{
+    margin:50px 0px 0px -40px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#social
+{
+    height:40px;
+    width: 100%;
+    background-color: white;
+    margin:270px 0px 00px 0px;
+    box-shadow: 0px 10px 10px 0px rgb(0 0 0 / 0.3);
+    display: flex;
+}
+
+#social ul
+{
+    margin:0px 0px 0px 120px;
+}
+
+#social li
+{
+    float: left;
+    list-style-type: none;
+    margin:10px 0px 0px 20px;
+}
+
+#intro
+{
+    height:100%;
+    width: 59%;
+    background-color:rgb(255, 255, 255);
+    display: inline;
+    float: right;
+}
+#intro h1
+{
+    padding: 40px 0px 0px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80px;
+    color: rgb(0, 0, 0);
+}
+
+#tagline
+{
+    padding: 20px 0px 0px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 100;
+    color: rgb(0, 0, 0);
+}
+
+#links
+{
+    width: 100%;
+    height: 40px;
+}
+#link1
+{
+    width: 150px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: blue;
+    display: inline-block;
+    margin: 30px 0px 0px 80px;
+}
+
+#link2
+{
+    width: 150px;
+    height: 35px;
+    border-radius: 50px;
+    margin: -40px 0px 0px 280px;
+    background-color: rgb(255, 255, 255);
+    border: solid;
+    border-color: rgb(112, 113, 114);
+}
+
+#resume
+{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    display: inline-block;
+    margin: 8px 0px 0px 28px;
+}
+
+#projects
+{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(112, 113, 114);
+    display: inline-block;
+    margin: 5px 0px 0px 20px;
+}
+
+#gig
+{
+    padding: 60px 0px 0px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 0, 0);
+    font-weight: 100;
+    line-height: 1.6;
+}
+
+/*#endregion Main Content*/
+
+/*#region Footer*/
+#footer
+{
+    height: 160px;
+    width: 100%; 
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+}
+
+
+#copyRight
+{
+    width: 40%;
+    height: 100px;
+    padding: 30px 0px 0px 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    font-weight: 100;
+    line-height: 1.6;
+    font-size: 12px;
+}
+#contact
+{
+    width: 35%;
+    height: 100px;
+    display: inline;
+    float: right;
+    padding: 30px 0px 0px 50px;
+}
+
+#required_info li
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    line-height: 1.6;
+    margin-right: 80px;
+}
+
+#number
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin-left: 40px;
+    color: rgb(0, 0, 0);
+}
+#mail
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin-left: 40px;
+    color: rgb(0, 0, 0);
+}
+
+.social_icons
+{
+    width: 18px;
+    height: 18px;
+    margin-left: 10px;
+}
+
+
+#socialBar li
+{
+    margin-right: -60px;
+}
+
+#socialBar
+{
+    margin-right: 200px;
+}
+/*#endregion Footer*/
